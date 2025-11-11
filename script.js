@@ -19,7 +19,7 @@ function createNote() {
 
   inputBox.className = "input-box";
   inputBox.setAttribute("contenteditable", "true");
-  img.src = "/images/images/delete.png";
+  img.src = "images/images/delete.png";
 
   inputBox.appendChild(img);
   notesContainer.appendChild(inputBox);
